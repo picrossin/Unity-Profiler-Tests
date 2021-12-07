@@ -18,7 +18,6 @@ public class BadExampleTest : MonoBehaviour
             {
                 Chain1();
             }
-
         }
     }
 
@@ -26,5 +25,4 @@ public class BadExampleTest : MonoBehaviour
     private void Chain2() { Chain3(); }
     private void Chain3() { Chain4(); }
     private void Chain4() { return; }
-
 }
